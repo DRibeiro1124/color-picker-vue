@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img class="logo" alt="PickerLogo" src="./assets/ColorPickerLogo.jpg">
+    <img class="logo" :style="logoStyle" alt="PickerLogo" src="./assets/ColorPickerLogo.jpg">
     <ColorPicker />
   </div>
 </template>
